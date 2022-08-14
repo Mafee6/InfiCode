@@ -1,0 +1,70 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    overflow: clip;
+    margin: 0;
+}
+
+.output {
+    height: 98vh;
+    width: 98.5vw;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+    gap: 10px;
+    padding: 10px;
+}
+
+.char {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 50, 50);
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    box-shadow: 1px 2px 1vh rgba(0, 0, 0, 0.293);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+.char p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.char:hover {
+    filter: brightness(120%);
+}
+
+.pause {
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgb(255, 99, 125);
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 1.5em;
+    user-select: none;
+    cursor: pointer;
+}
+
+.title {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title h {
+    font-size: 1.5em;
+}
+
+.title p {
+    margin: 0;
+}
