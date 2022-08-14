@@ -68,4 +68,4 @@ pause.addEventListener("click", () => {
     }
 })
 
-setInterval(render, 2500);
+setInterval(render, 2000);
